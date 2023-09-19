@@ -1,0 +1,149 @@
+body{
+    margin : 0;
+    padding: 0;
+    font-family: Arial, sans-serif
+    
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #c7c7c7 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #feeddd;
+  height: 5rem;
+}
+.logo img {
+  margin-top: 1.5rem;
+  width: 8rem;
+}
+.navbar {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  margin-right: 1.5rem;
+  color: black;
+  font-size: 1.2rem;
+}
+.title{
+    padding: 12rem;
+    justify-content: center;
+    display: flex;
+    font-size: 5rem;
+}
+
+.title2{
+  justify-content: center;
+  display: flex;
+  font-size: 4rem;
+}
+.subtitle{
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+}
+.DisplaySec{
+  height: 100vh;
+}
+.displayItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Displaybtn{
+  display: flex;
+  padding : 5rem 1rem;
+  justify-content: space-evenly;
+}
+.Btn{
+  font-size: 1.6rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background-color: #8A5737;  
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.section {
+    display: flex;
+    flex-direction:row;  
+    justify-content: center;
+    align-items: center;
+}
+
+.section h2 {
+    text-align: center;
+    background-color: #FEEDDD;
+    color: #8A5737;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.section-text {
+    flex: 1;
+    color: #8A5737;
+    width: 1000px;
+    margin: 80px;
+    text-align: center;
+}
+
+.section-image {
+  flex: 1;
+  text-align: center;
+}
+
+.section-image img {
+    max-width: 520px;
+    max-height: 520px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.section-button {
+  text-align: center;
+  margin-top: 20px;
+}
+footer {
+    background-color: #8A5737;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
